@@ -1,0 +1,39 @@
+/* Shared styles */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container {
+  max-width: 1414px;
+  margin: auto;
+}
+/* banner styles */
+.banner {
+  display: flex;
+  align-items: center;
+  background-color: black;
+  color: white;
+  border-radius: 30px;
+}
+.banner-left h2 {
+  font-size: 4.375rem;
+  font-weight: bold;
+  margin-left: 125px;
+}
+.banner-left p {
+  margin: 20px 125px;
+}
+.banner-left button {
+  margin-left: 125px;
+  padding: 16px 59px 17px 25px;
+  font-weight: 500;
+  font-size: 1.25rem;
+  background-color: #dd0000;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+.banner {
+  margin: 80px auto;
+}
